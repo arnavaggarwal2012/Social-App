@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SocialApp" parent="Theme.Material3.DayNight.NoActionBar"/>
+
+    <style name="Theme.SocialApp" parent="Base.Theme.SocialApp" />
+
+<!--    TODO 1: Add the custom Splashscreen   -->
+    <style name="Theme.AppCompat.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/SecondaryColor</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.SocialApp</item>
+    </style>
+</resources>

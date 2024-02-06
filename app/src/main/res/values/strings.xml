@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Social-App</string>
+    <string name="app_logo_toolbar">App Logo Toolbar</string>
+    <string name="social_app">Social App</string>
+    <string name="messages">Messages</string>
+    <string name="profile_pic_of_the_user">Profile Pic of the User</string>
+</resources>
